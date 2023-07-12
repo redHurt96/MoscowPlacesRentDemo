@@ -9,9 +9,12 @@ namespace RH_Utilities.UI
         private Button _button;
 
         protected abstract void PerformOnClick();
+        protected virtual void PerformOnStart() {}
 
         private void Start()
         {
+            PerformOnStart();
+            
             _button = GetComponent<Button>();
             _button.onClick.AddListener(PerformOnClick);
         }

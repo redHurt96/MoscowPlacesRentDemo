@@ -19,14 +19,5 @@ namespace RH_Utilities.UI
             if (!string.IsNullOrEmpty(_firstScreen))
                 Screen.Show(_firstScreen, false);
         }
-
-#if UNITY_EDITOR
-        [ContextMenu(nameof(PrintAllScreens))]
-        private void PrintAllScreens()
-        {
-            foreach (Screen screen in FindObjectsOfType<Screen>(true))
-                Debug.Log(screen.Type);            
-        }
-#endif
     }
 }
