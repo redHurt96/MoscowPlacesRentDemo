@@ -15,12 +15,12 @@ namespace _Project.Logic.UI
         
         public void SetupComparison(EventModel eventModel, PlaceModel placeModel)
         {
-            Comparison target = _comparisons.FirstOrDefault(x => x.EventName == eventModel.Name
-                                                                 && x.PlaceName == placeModel.Name);
-
-            _result.text = target != null ? 
-                target.Result : 
-                _badComparisonTitle;
+            // Comparison target = _comparisons.FirstOrDefault(x => x.EventName == eventModel.Name
+            //                                                      && x.PlaceName == placeModel.Name);
+            //
+            // _result.text = target != null ? 
+            //     target.Result : 
+            //     _badComparisonTitle;
         }
     }
 }

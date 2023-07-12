@@ -13,8 +13,12 @@ namespace _Project.Logic.UI
         protected override void PerformOnStart() => 
             _name.text = _event.Name;
 
-        protected override void PerformOnClick() =>
+        protected override void PerformOnClick()
+        {
             FindObjectOfType<PlacesScreen>(true)
                 .Select(_event);
+            FindObjectOfType<EventScreen>(true)
+                .Select(_event);
+        }
     }
 }

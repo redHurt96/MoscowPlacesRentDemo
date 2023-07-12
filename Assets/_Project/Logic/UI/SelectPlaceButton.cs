@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace _Project.Logic.UI
 {
-    public class LookAtPlaceButton : BaseActionButton
+    public class SelectPlaceButton : BaseActionButton
     {
         [SerializeField] private PlaceModel _placeModel;
         [SerializeField] private Text _name;
@@ -15,6 +15,6 @@ namespace _Project.Logic.UI
 
         protected override void PerformOnClick() =>
             FindObjectOfType<PlacesScreen>(true)
-                .LookAt(_placeModel);
+                .Select(_placeModel);
     }
 }

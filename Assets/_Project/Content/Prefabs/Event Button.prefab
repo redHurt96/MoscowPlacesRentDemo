@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d9d6bf53e94eb1990a04845862f4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _screen: Places Screen
+  _screen: Event Screen
 --- !u!114 &3088224242484569708
 MonoBehaviour:
   m_ObjectHideFlags: 0
