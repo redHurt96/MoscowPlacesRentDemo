@@ -8,21 +8,17 @@ namespace _Project.Logic.UI
     {
         [SerializeField] private EventsConfig _eventsConfig;
         [SerializeField] private SwitchScreenTimer _timer;
+        [SerializeField] private PlaceButton[] _placeButtons;
         
         private string _eventName;
-        private GameObject _view;
-
-        private void OnDisable()
-        {
-            if (_view != null)
-                Destroy(_view);
-        }
 
         public void Select(string eventName)
         {
             _eventName = eventName;
-            _view = Instantiate(_eventsConfig.PlacesFor(_eventName), transform);
-            _view.transform.SetSiblingIndex(0);
+            Sprite[] placeConfigs = _eventsConfig.PlacesFor(_eventName);
+
+            for (int i = 0; i < _placeButtons.Length; i++) 
+                _placeButtons[i].Setup(placeConfigs[i]);
         }
 
         public void Select(int placeNumber)

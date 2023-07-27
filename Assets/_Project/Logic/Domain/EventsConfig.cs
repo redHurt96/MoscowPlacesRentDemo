@@ -19,7 +19,7 @@ namespace _Project.Logic.Domain
                 .CorrectPlaces
                 .Contains(placeNumber);
 
-        public GameObject PlacesFor(string eventName) =>
+        public Sprite[] PlacesFor(string eventName) =>
             _events
                 .First(x => x.EventName == eventName)
                 .Places;
