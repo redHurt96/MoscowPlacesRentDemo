@@ -17,24 +17,24 @@ MonoBehaviour:
     Description: {fileID: 21300000, guid: d53e40910223c144b86a6b02f6ff1fa7, type: 3}
     Places: {fileID: 4969723694770226083, guid: 6f158c8a7e6aab540985509b307da781, type: 3}
     CorrectPlaces: 02000000
-    GoodResult: {fileID: 21300000, guid: c0122d25e3a3b0649bb067bf0b19622d, type: 3}
+    GoodResult: {fileID: 304178114530945237, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
   - EventName: Presentation
     Description: {fileID: 21300000, guid: 48d2b93ddafca3a4eadcef03dca45a9f, type: 3}
     Places: {fileID: 4261863895431470594, guid: 2592915b235cbb74298ffa9a3a1510ec, type: 3}
     CorrectPlaces: 02000000
-    GoodResult: {fileID: 21300000, guid: b712b10e5a1aaee45bb1b61087ed24dc, type: 3}
+    GoodResult: {fileID: 4847788090691255694, guid: 355628f3052bd6e40a698a12aa43b6f9, type: 3}
   - EventName: Birthday
     Description: {fileID: 21300000, guid: 2b4552ce4e120a14d99675fa2030e669, type: 3}
     Places: {fileID: 6378534952854235942, guid: 50eb72efea783284199e7bf7fe2c83e0, type: 3}
     CorrectPlaces: 00000000
-    GoodResult: {fileID: 21300000, guid: ce304f22e964cf943b1cfaade5a9364b, type: 3}
+    GoodResult: {fileID: 979480042796383061, guid: ec1b1997b33843c488d2c4b473e23a07, type: 3}
   - EventName: Vebinar
     Description: {fileID: 21300000, guid: e68c4d270601b13409c448e3d7a181df, type: 3}
     Places: {fileID: 1468634828844034803, guid: bbfeeaad7f1b6bf4cb6fbdd4ffff9ab2, type: 3}
     CorrectPlaces: 0000000003000000
-    GoodResult: {fileID: 21300000, guid: 22c4a05c246bc964b9d7220e80d2dc40, type: 3}
+    GoodResult: {fileID: 5972057821007755600, guid: 6ed111d66c4fdd24b974ff93f1df35d0, type: 3}
   - EventName: Art
     Description: {fileID: 21300000, guid: b806f8be5a632394cb2f95ea6ba518c4, type: 3}
     Places: {fileID: 5914444378205997882, guid: bedcfa9852cef414db1ae1d2f2a93fb9, type: 3}
     CorrectPlaces: 0100000002000000
-    GoodResult: {fileID: 21300000, guid: 722e4c29a3eab184f896b71bb3f8b2c1, type: 3}
+    GoodResult: {fileID: 5003830464876630763, guid: 160a99bfcc4abb34790e03efbb469845, type: 3}

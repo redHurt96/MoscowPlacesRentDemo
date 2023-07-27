@@ -24,7 +24,7 @@ namespace _Project.Logic.Domain
                 .First(x => x.EventName == eventName)
                 .Places;
 
-        public Sprite GoodResultFor(string eventName) =>
+        public GameObject GoodResultFor(string eventName) =>
             _events
                 .First(x => x.EventName == eventName)
                 .GoodResult;

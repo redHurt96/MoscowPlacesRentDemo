@@ -1,3 +1,4 @@
+using System;
 using _Project.Logic.Domain;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,9 +8,19 @@ namespace _Project.Logic.UI
     internal class GoodChoiceScreen : MonoBehaviour
     {
         [SerializeField] private EventsConfig _config;
-        [SerializeField] private Image _content;
+        
+        private GameObject _view;
 
-        public void SelectFor(string eventName) => 
-            _content.sprite = _config.GoodResultFor(eventName);
+        private void OnDisable()
+        {
+            if (_view != null)
+                Destroy(_view);
+        }
+
+        public void SelectFor(string eventName, float timerCurrentTime)
+        {
+            _view = Instantiate(_config.GoodResultFor(eventName), transform);
+            GetComponentInChildren<Text>().text = timerCurrentTime.ToString("F0");
+        }
     }
 }

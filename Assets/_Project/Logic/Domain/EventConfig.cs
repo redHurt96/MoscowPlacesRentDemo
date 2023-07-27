@@ -10,6 +10,6 @@ namespace _Project.Logic.Domain
         public Sprite Description;
         public GameObject Places;
         public int[] CorrectPlaces;
-        public Sprite GoodResult;
+        public GameObject GoodResult;
     }
 }

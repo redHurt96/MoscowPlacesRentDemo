@@ -7,6 +7,7 @@ namespace _Project.Logic.UI
     public class PlacesScreen : MonoBehaviour
     {
         [SerializeField] private EventsConfig _eventsConfig;
+        [SerializeField] private SwitchScreenTimer _timer;
         
         private string _eventName;
         private GameObject _view;
@@ -29,7 +30,7 @@ namespace _Project.Logic.UI
             if (_eventsConfig.IsPlaceCorrect(placeNumber, _eventName))
             {
                 FindObjectOfType<GoodChoiceScreen>(true)
-                    .SelectFor(_eventName);
+                    .SelectFor(_eventName, _timer.CurrentTime);
                 Show("Good Choice Screen");
             }
             else
