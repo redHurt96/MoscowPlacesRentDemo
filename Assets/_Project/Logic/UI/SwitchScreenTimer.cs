@@ -6,19 +6,22 @@ namespace _Project.Logic.UI
 {
     public class SwitchScreenTimer : MonoBehaviour
     {
-        public float CurrentTime { get; private set; }
-        
+        public float CurrentTime => _timeToScreensaver - _leftTime;
+        public float Progress => CurrentTime / _timeToScreensaver;
+
         [SerializeField] private float _timeToScreensaver;
         [SerializeField] private string _screenToSwitch;
 
+        private float _leftTime;
+        
         private void OnEnable() => 
-            CurrentTime = _timeToScreensaver;
+            _leftTime = _timeToScreensaver;
 
         private void Update()
         {
-            CurrentTime -= deltaTime;
+            _leftTime -= deltaTime;
             
-            if (CurrentTime <= 0f)
+            if (_leftTime <= 0f)
                 Show(_screenToSwitch);
         }
     }

@@ -6,24 +6,36 @@ namespace _Project.Logic.UI
 {
     public class PlacesScreen : MonoBehaviour
     {
-        private EventModel _eventModel;
-        private PlaceModel _placeModel;
+        [SerializeField] private EventsConfig _eventsConfig;
+        
+        private string _eventName;
+        private GameObject _view;
 
         private void OnDisable()
         {
-            _eventModel = null;
-            _placeModel = null;
+            if (_view != null)
+                Destroy(_view);
         }
 
-        public void Select(PlaceModel place)
+        public void Select(string eventName)
         {
-            _placeModel = place;
-            FindObjectOfType<ChoiceScreen>(true)
-                .SetupComparison(_eventModel, _placeModel);
-            Show("Choice Screen");
+            _eventName = eventName;
+            _view = Instantiate(_eventsConfig.PlacesFor(_eventName), transform);
+            _view.transform.SetSiblingIndex(0);
         }
 
-        public void Select(EventModel eventModel) => 
-            _eventModel = eventModel;
+        public void Select(int placeNumber)
+        {
+            if (_eventsConfig.IsPlaceCorrect(placeNumber, _eventName))
+            {
+                FindObjectOfType<GoodChoiceScreen>(true)
+                    .SelectFor(_eventName);
+                Show("Good Choice Screen");
+            }
+            else
+            {
+                Show("Bad Choice Screen", false);
+            }
+        }
     }
 }

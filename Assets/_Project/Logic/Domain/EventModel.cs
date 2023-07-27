@@ -6,6 +6,5 @@ namespace _Project.Logic.Domain
     public class EventModel
     {
         public string Name;
-        public string Description;
     }
 }
