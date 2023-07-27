@@ -10,15 +10,16 @@ namespace _Project.Logic.UI
 {
     public class Envelop : BaseActionButton
     {
+        [SerializeField] private int _closeSiblingIndex = 3;
         [SerializeField] private string _eventName;
         [SerializeField] private RectTransform _close;
         [SerializeField] private RectTransform _paper;
 
         private void OnEnable()
         {
-            if (_close.GetSiblingIndex() != 2)
+            if (_close.GetSiblingIndex() != _closeSiblingIndex)
             {
-                _close.SetSiblingIndex(2);
+                _close.SetSiblingIndex(_closeSiblingIndex);
                 _close.localScale = one;
                 _paper.localPosition = new(_paper.localPosition.x, 125, _paper.localPosition.z);
             }
@@ -28,7 +29,7 @@ namespace _Project.Logic.UI
         {
             EventSystem eventSystem = EventSystem.current;
             eventSystem.enabled = false;
-            
+
             _close
                 .DOScaleY(-1f, 1f)
                 .OnComplete(() =>

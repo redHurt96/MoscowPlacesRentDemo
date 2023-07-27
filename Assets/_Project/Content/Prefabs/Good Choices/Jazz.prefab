@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d9d6bf53e94eb1990a04845862f4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _screen: Start Screen
+  _screen: ScreenSaver
 --- !u!1 &304178114570907617
 GameObject:
   m_ObjectHideFlags: 0
