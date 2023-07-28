@@ -8,6 +8,7 @@ namespace _Project.Logic.Domain
     {
         public string EventName;
         public Sprite Description;
+        public Sprite ShortDescription;
         public Sprite[] Places;
         public int[] CorrectPlaces;
         public GameObject GoodResult;

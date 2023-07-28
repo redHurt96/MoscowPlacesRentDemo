@@ -28,5 +28,10 @@ namespace _Project.Logic.Domain
             _events
                 .First(x => x.EventName == eventName)
                 .GoodResult;
+
+        public Sprite ShortDescriptionFor(string eventName) =>
+            _events
+                .First(x => x.EventName == eventName)
+                .ShortDescription;
     }
 }
