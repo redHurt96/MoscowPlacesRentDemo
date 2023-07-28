@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 304178114530945233, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 722e4c29a3eab184f896b71bb3f8b2c1, type: 3}
+      objectReference: {fileID: 21300000, guid: ec4529b6975068d40bcfe03135d04874, type: 3}
     - target: {fileID: 304178114530945234, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -97,7 +97,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 304178114530945237, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Name
-      value: Art
+      value: Art Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 304178114570907630, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -716.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 304178114570907630, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.986
       objectReference: {fileID: 0}
     - target: {fileID: 304178114757672514, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Color.g

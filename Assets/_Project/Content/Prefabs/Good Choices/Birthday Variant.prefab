@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 304178114530945233, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ce304f22e964cf943b1cfaade5a9364b, type: 3}
+      objectReference: {fileID: 21300000, guid: 9780b9cc5adc65e418755ed5080f58c3, type: 3}
     - target: {fileID: 304178114530945234, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -97,7 +97,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 304178114530945237, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_Name
-      value: Birthday
+      value: Birthday Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 304178114570907630, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9.2505
+      objectReference: {fileID: 0}
+    - target: {fileID: 304178114570907630, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 304178114757672517, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
       propertyPath: m_AnchoredPosition.x

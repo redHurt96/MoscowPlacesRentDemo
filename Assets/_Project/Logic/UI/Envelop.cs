@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using DG.Tweening;
 using RH_Utilities.UI;
 using UnityEngine;
@@ -37,14 +37,18 @@ namespace _Project.Logic.UI
                     _close.SetSiblingIndex(0);
                     _paper
                         .DOLocalMoveY(533f, 1f)
-                        .OnComplete(() =>
-                        {
-                            eventSystem.enabled = true;
-                            FindObjectOfType<EventScreen>(true)
-                                .Select(_eventName);
-                            Screen.Show("Event Screen");
-                        });
+                        .OnComplete(() => StartCoroutine(ShowEventScreen(eventSystem)));
                 });
+        }
+
+        private IEnumerator ShowEventScreen(EventSystem eventSystem)
+        {
+            yield return new WaitForSeconds(2f);
+            
+            eventSystem.enabled = true;
+            FindObjectOfType<EventScreen>(true)
+                .Select(_eventName);
+            Screen.Show("Event Screen");
         }
     }
 }

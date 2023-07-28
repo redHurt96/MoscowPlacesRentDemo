@@ -20,16 +20,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 62846547a06682f469a4b51164eb875b, type: 3}
     - {fileID: 21300000, guid: b7f7533b477a9934292b2cec98ff0362, type: 3}
     - {fileID: 21300000, guid: 9d1e3ea9b396f5f4e9ae43d4172aa567, type: 3}
-    - {fileID: 21300000, guid: 4e672c37799a26b4c9b483d8ac58f0e2, type: 3}
+    - {fileID: 21300000, guid: 9f0abe1ac9a4f544f98c1f082340f718, type: 3}
     CorrectPlaces: 02000000
     GoodResult: {fileID: 304178114530945237, guid: e3513307298858041b46c1bc3fa8871f, type: 3}
   - EventName: Presentation
     Description: {fileID: 21300000, guid: 48d2b93ddafca3a4eadcef03dca45a9f, type: 3}
     ShortDescription: {fileID: 21300000, guid: b8c52b82fe0276946aaf229f3e43e34a, type: 3}
     Places:
-    - {fileID: 21300000, guid: 7b8b80559156a834bbb1a71d25f3d6d9, type: 3}
-    - {fileID: 21300000, guid: ad300fd1be7c5dc4289b6083bbc945df, type: 3}
-    - {fileID: 21300000, guid: e5d8da2603441ba448ceec1bc3752935, type: 3}
+    - {fileID: 21300000, guid: 3b2490591c4f7384e94b230d9fc15665, type: 3}
+    - {fileID: 21300000, guid: 95d615d7d8198224c844b0398eb4cd8d, type: 3}
+    - {fileID: 21300000, guid: 76b80499becf5b047b540da04c77d9a2, type: 3}
     - {fileID: 21300000, guid: 8fd8ed07967e79445864ef6de3b6a5ad, type: 3}
     CorrectPlaces: 02000000
     GoodResult: {fileID: 4847788090691255694, guid: 355628f3052bd6e40a698a12aa43b6f9, type: 3}
@@ -37,29 +37,29 @@ MonoBehaviour:
     Description: {fileID: 21300000, guid: 2b4552ce4e120a14d99675fa2030e669, type: 3}
     ShortDescription: {fileID: 21300000, guid: f1aee4556ba7f4c46a0afae4cff36271, type: 3}
     Places:
-    - {fileID: 21300000, guid: 580c4912baf34c74aaec490e45e6bbf7, type: 3}
-    - {fileID: 21300000, guid: bd76bb8df2dbbc3439d02b11042d2d1d, type: 3}
-    - {fileID: 21300000, guid: c78701025c8a9b14b802818d12dc43d7, type: 3}
-    - {fileID: 21300000, guid: 0036d7db4778552419a873218116e23e, type: 3}
-    CorrectPlaces: 00000000
+    - {fileID: 21300000, guid: 858f61b731235d8478c7f46a6fb064ef, type: 3}
+    - {fileID: 21300000, guid: c28d28b0379e2c649ac1d6dd51b144c4, type: 3}
+    - {fileID: 21300000, guid: ce25d32bde0f7804a872b658c6430e7e, type: 3}
+    - {fileID: 21300000, guid: 1b3c721062b961d4787a826c529c9990, type: 3}
+    CorrectPlaces: 01000000
     GoodResult: {fileID: 979480042796383061, guid: ec1b1997b33843c488d2c4b473e23a07, type: 3}
   - EventName: Vebinar
     Description: {fileID: 21300000, guid: e68c4d270601b13409c448e3d7a181df, type: 3}
     ShortDescription: {fileID: 21300000, guid: df8d8b69efd6bf646bfd0b5ac4c81d32, type: 3}
     Places:
-    - {fileID: 21300000, guid: a9936d68cfb8ddf459bff69e669b90cc, type: 3}
-    - {fileID: 21300000, guid: 94d6a8027a4919d44a425346ee6c1476, type: 3}
-    - {fileID: 21300000, guid: fb31497ee0df9124f9db5b09429777b2, type: 3}
-    - {fileID: 21300000, guid: ff741c7d70869c945a99c8f39b4342c1, type: 3}
+    - {fileID: 21300000, guid: dd32c9e2ac75bce45bc93290f221b9b1, type: 3}
+    - {fileID: 21300000, guid: a1d2b6f834235f645b0be8d469cb16a6, type: 3}
+    - {fileID: 21300000, guid: e76a630894a18c94aa08763874602360, type: 3}
+    - {fileID: 21300000, guid: c5549f7fe6c8d654bb40abab8ad104b6, type: 3}
     CorrectPlaces: 0000000003000000
     GoodResult: {fileID: 5972057821007755600, guid: 6ed111d66c4fdd24b974ff93f1df35d0, type: 3}
   - EventName: Art
     Description: {fileID: 21300000, guid: b806f8be5a632394cb2f95ea6ba518c4, type: 3}
     ShortDescription: {fileID: 21300000, guid: c6d02c9d5cfd3a446a8ba0913e1ca95a, type: 3}
     Places:
-    - {fileID: 21300000, guid: 0175ffaec96542f4b8462e29f163021d, type: 3}
-    - {fileID: 21300000, guid: a01c6961d3ac56f4da7df89e58635ebe, type: 3}
-    - {fileID: 21300000, guid: 6bd74240db8b64140a211f9fe3f0c608, type: 3}
-    - {fileID: 21300000, guid: c6470dd0bac24f641b6ed4963d2a7eb3, type: 3}
+    - {fileID: 21300000, guid: 0fa978fa1462cf84abc07f7a32c2baa6, type: 3}
+    - {fileID: 21300000, guid: f4821086eb0fb0943a94950c8740ca49, type: 3}
+    - {fileID: 21300000, guid: df0cd67116a30304c89063410aa3a6c4, type: 3}
+    - {fileID: 21300000, guid: cdf0796d18a54ed41b8889eea918fd9b, type: 3}
     CorrectPlaces: 0100000002000000
     GoodResult: {fileID: 5003830464876630763, guid: 160a99bfcc4abb34790e03efbb469845, type: 3}
